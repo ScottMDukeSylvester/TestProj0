@@ -10,8 +10,11 @@ assign("last.warning", NULL, envir = baseenv())
 #
 #############################################################
 library(tidyverse)
+library(rgdal)
+libarry(rgeos)
 
 #############################################################
-# 
+# Load data from file
 #
 #############################################################
+data = read.csv('filename.csv')
